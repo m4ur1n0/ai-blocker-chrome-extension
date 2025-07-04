@@ -1,0 +1,31 @@
+{
+    "manifest_version" : 3,
+    "name" : "AntAI",
+    "version" : "1.0",
+    "description" : "Blocks the use of AI services. Saves your brain and the environment.",
+    "icons" : {
+        "48": "icon.png"
+    },
+    "permissions" : [
+        "declarativeNetRequest",
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "declarative_net_request" : {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled" : true,
+                "path" : "rules.json"
+            }
+        ]
+    },
+    "action" : {
+        "default_popup" : "popup/popup.html"
+    }
+}
