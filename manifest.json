@@ -4,7 +4,9 @@
     "version" : "1.0",
     "description" : "Blocks the use of AI services. Saves your brain and the environment.",
     "icons" : {
-        "48": "icon.png"
+        "16" : "icon.png",
+        "48": "icon.png",
+        "128" : "icon.png"
     },
     "permissions" : [
         "declarativeNetRequest",
