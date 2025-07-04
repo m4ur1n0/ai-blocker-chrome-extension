@@ -30,5 +30,5 @@
     "action" : {
         "default_popup" : "popup/popup.html"
     },
-    "privacy-policy" : "https://m4ur1n0.github.io/ai-blocker-chrome-extension/privacy-policy.md"
+    "privacy_policy" : "https://m4ur1n0.github.io/ai-blocker-chrome-extension/privacy-policy.md"
 }
