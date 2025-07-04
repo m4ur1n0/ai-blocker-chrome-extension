@@ -83,3 +83,11 @@ input:checked + .slider:before {
     color : #370505;
 
 }
+
+.privacy-policy {
+    margin-top: 30px;
+}
+
+.privacy-policy a {
+    color : "black";
+}
