@@ -376,4 +376,5 @@ async function updateRules() {
             enableRulesetIds : []
         });
     }
+    
 }
