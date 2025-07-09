@@ -261,5 +261,173 @@
           "urlFilter": "||poe.com^",
           "resourceTypes": ["main_frame", "xmlhttprequest", "script"]
         }
+      },
+
+
+
+      {
+        "id": 100,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/_/BardUi/data/batchexecute",
+          "resourceTypes": ["xmlhttprequest", "script", "sub_frame"]
+        }
+      },
+      {
+        "id": 101,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/search?*async",
+          "resourceTypes": ["sub_frame", "xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id": 102,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/async/clk",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id": 103,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/_/BardUi/",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id": 104,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/_/KnowledgePanelUi/",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id": 105,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/_/AssistGenAiUi/",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id": 106,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/_/LongTasksUi/",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id": 107,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/_/ChromePromptUi/",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id": 108,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/gen_204?atyp=csi",
+          "resourceTypes": ["xmlhttprequest"]
+        }
+      },
+      {
+        "id" : 109,
+        "priority": 1,
+        "action" : {"type" : "block"},
+        "condition" : {
+          "urlFilter" : "||googleadservices.com^",
+          "resourceTypes" : ["main_frame", "xmlhttprequest", "script", "sub_frame"]
+        }
+      },
+      {
+        "id" : 110,
+        "priority": 1,
+        "action" : {"type" : "block"},
+        "condition" : {
+          "urlFilter" : "||google.com/async/vpkg",
+          "resourceTypes" : ["main_frame", "xmlhttprequest", "script", "sub_frame"]
+        }
+      },
+      {
+        "id": 111,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/async/bgasy?*async=*",
+          "resourceTypes": ["xmlhttprequest","script"]
+        }
+      },
+      {
+        "id": 112,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/async/folsrch?*async=*",
+          "resourceTypes": ["xmlhttprequest","script"]
+        }
+      },
+      {
+        "id": 113,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.apps.asyncdata.v1.AsyncDataService/GetAsyncData*",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id" : 114,
+        "priority": 1,
+        "action": {"type" : "block"},
+        "condition": {
+          "urlFilter": "||ogads-pa.clients6.google.com/$rpc/google.internal.onegoogle.asyncdata.v1.AsyncDataService/GetAsyncData*",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
+      },
+      {
+        "id" : 115,
+        "priority": 1,
+        "action": {"type" : "block"},
+        "condition": {
+          "urlFilter": "||google.com/async/folif*",
+          "resourceTypes": ["xmlhttprequest", "script", "main_frame", "sub_frame"]
+        }
+      },
+      {
+        "id" : 116,
+        "priority": 1,
+        "action": {"type" : "block"},
+        "condition": {
+          "urlFilter": "||google.com/async/folwr*",
+          "resourceTypes": ["xmlhttprequest", "script", "main_frame", "sub_frame"]
+        }
+      },
+      {
+        "id": 999,
+        "priority": 1,
+        "action": { "type": "block" },
+        "condition": {
+          "urlFilter": "||google.com/_/*genai*",
+          "resourceTypes": ["xmlhttprequest", "script"]
+        }
       }
+      
+                        
+      
   ]
