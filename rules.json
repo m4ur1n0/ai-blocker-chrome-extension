@@ -264,6 +264,91 @@
       },
 
 
+      {
+        "id": 27,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||x.ai",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 28,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||grok.x.com",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 29,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||internal.x.ai*",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 30,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||x.com/i/api/graphql/*Grok*",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 31,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||colossus.x.ai*",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 32,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||api.x.ai",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 33,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||grok.com",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 34,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||console.x.ai",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 35,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||upload.x.com",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+
+
+
+
 
       {
         "id": 100,
