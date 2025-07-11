@@ -1,8 +1,8 @@
 {
     "manifest_version" : 3,
     "name" : "AntAI",
-    "version" : "1.1.0",
-    "description" : "Blocks the use of AI services. Saves your brain and saves the environment.",
+    "version" : "1.1.1",
+    "description" : "The most sophisticated AI blocker out right now. Blocks the use of all AI services. Saves your brain and saves the environment.",
     "icons" : {
         "16" : "icon.png",
         "48": "icon.png",

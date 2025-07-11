@@ -296,7 +296,7 @@
         "priority":1,
         "action":{"type":"block"},
         "condition":{
-          "urlFilter":"||x.com/i/api/graphql/*Grok*",
+          "urlFilter":"||x.com/i/api/graphql/*GrokHome*",
           "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
         }
       },
@@ -342,6 +342,15 @@
         "action":{"type":"block"},
         "condition":{
           "urlFilter":"||upload.x.com",
+          "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
+        }
+      },
+      {
+        "id": 36,
+        "priority":1,
+        "action":{"type":"block"},
+        "condition":{
+          "urlFilter":"||x.com/i/api/graphql/*CreateGrokConversation*",
           "resourceTypes":["main_frame","script","sub_frame","xmlhttprequest", "websocket"]
         }
       },
